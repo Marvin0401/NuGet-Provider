@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Net.Http.Rtc</name>
+  </assembly>
+  <members>
+    <member name="T:System.Net.Http.RtcRequestFactory">
+      <summary>RTC (Real-Time-Communications) バックグラウンド通知インフラ ストラクチャで使用する特別な <see cref="T:System.Net.Http.HttpRequestMessage" /> の作成に使用されるクラスを表します。</summary>
+    </member>
+    <member name="M:System.Net.Http.RtcRequestFactory.Create(System.Net.Http.HttpMethod,System.Uri)">
+      <summary>RTC (Real-Time-Communications) バックグラウンド通知インフラ ストラクチャで使用する特別な <see cref="T:System.Net.Http.HttpRequestMessage" /> を作成します。</summary>
+      <returns>
+        <see cref="T:System.Net.Http.HttpRequestMessage" /> を返します。RTC バックグラウンド通知インフラストラクチャで使用される HTTP 要求メッセージ。</returns>
+      <param name="method">HTTP メソッド。</param>
+      <param name="uri">要求の送信先 URI。</param>
+    </member>
+  </members>
+</doc>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Net.Http.Rtc</name>
+  </assembly>
+  <members>
+    <member name="T:System.Net.Http.RtcRequestFactory">
+      <summary>Representa la clase que se usa para crear elementos <see cref="T:System.Net.Http.HttpRequestMessage" /> especiales para utilizarlos con la infraestructura de notificación en segundo plano Real-Time-Communications (RTC).</summary>
+    </member>
+    <member name="M:System.Net.Http.RtcRequestFactory.Create(System.Net.Http.HttpMethod,System.Uri)">
+      <summary>Crea un objeto <see cref="T:System.Net.Http.HttpRequestMessage" /> especial para utilizarlo con la infraestructura de notificaciones en segundo plano Real-Time-Communications (RTC).</summary>
+      <returns>Devuelve <see cref="T:System.Net.Http.HttpRequestMessage" />.Un mensaje de solicitud HTTP para usarse con la infraestructura de notificación en segundo plano RTC.</returns>
+      <param name="method">Método HTTP.</param>
+      <param name="uri">URI al que se envía la solicitud.</param>
+    </member>
+  </members>
+</doc>

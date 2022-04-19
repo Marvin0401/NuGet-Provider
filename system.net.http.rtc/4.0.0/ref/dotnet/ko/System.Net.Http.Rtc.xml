@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Net.Http.Rtc</name>
+  </assembly>
+  <members>
+    <member name="T:System.Net.Http.RtcRequestFactory">
+      <summary>RTC(Real-Time-Communication) 백그라운드 알림 인프라에서의 사용을 위해 특수 <see cref="T:System.Net.Http.HttpRequestMessage" />를 만드는 데 사용되는 클래스를 나타냅니다.</summary>
+    </member>
+    <member name="M:System.Net.Http.RtcRequestFactory.Create(System.Net.Http.HttpMethod,System.Uri)">
+      <summary>RTC(Real-Time-Communication) 백그라운드 알림 인프라에 사용할 특수 <see cref="T:System.Net.Http.HttpRequestMessage" />를 만듭니다.</summary>
+      <returns>
+        <see cref="T:System.Net.Http.HttpRequestMessage" />를 반환합니다.RTC 백그라운드 알림 인프라에 사용할 HTTP 요청 메시지입니다.</returns>
+      <param name="method">HTTP 메서드입니다.</param>
+      <param name="uri">요청이 전송되는 URI입니다.</param>
+    </member>
+  </members>
+</doc>

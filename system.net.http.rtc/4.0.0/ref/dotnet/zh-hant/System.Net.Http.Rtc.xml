@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Net.Http.Rtc</name>
+  </assembly>
+  <members>
+    <member name="T:System.Net.Http.RtcRequestFactory">
+      <summary>表示類別，用於建立特殊的 <see cref="T:System.Net.Http.HttpRequestMessage" />，可搭配即時通訊 (RTC) 背景通知基礎結構使用。</summary>
+    </member>
+    <member name="M:System.Net.Http.RtcRequestFactory.Create(System.Net.Http.HttpMethod,System.Uri)">
+      <summary>建立搭配即時通訊 (RTC) 背景通知基礎結構使用的特殊 <see cref="T:System.Net.Http.HttpRequestMessage" />。</summary>
+      <returns>傳回 <see cref="T:System.Net.Http.HttpRequestMessage" />。用於 RTC 背景通知基礎結構的 HTTP 要求訊息。</returns>
+      <param name="method">HTTP 方法。</param>
+      <param name="uri">要求被傳送到的 URI。</param>
+    </member>
+  </members>
+</doc>

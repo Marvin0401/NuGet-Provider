@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Net.Http.Rtc</name>
+  </assembly>
+  <members>
+    <member name="T:System.Net.Http.RtcRequestFactory">
+      <summary>Stellt die Klasse dar, die verwendet wird, um besonderes <see cref="T:System.Net.Http.HttpRequestMessage" /> zur Verwendung mit der Echtzeitkommunikations (RTC)-Hindergrundbenachrichtigungs-Infrastruktur zu erstellen.</summary>
+    </member>
+    <member name="M:System.Net.Http.RtcRequestFactory.Create(System.Net.Http.HttpMethod,System.Uri)">
+      <summary>Stellt eine besondere <see cref="T:System.Net.Http.HttpRequestMessage" /> zur Verwendung in der Hindergrundbenachrichtigungs-Infrastruktur der Echtzeitkommunikation (RTC).</summary>
+      <returns>Gibt <see cref="T:System.Net.Http.HttpRequestMessage" /> zurück.Eine HTTP-Anforderungsnachricht zur Verwendung mit der RTC-Hintergrundbenachrichtigungsinfrastruktur.</returns>
+      <param name="method">Die HTTP-Methode</param>
+      <param name="uri">Der URI, an den die Anforderung gesendet wird.</param>
+    </member>
+  </members>
+</doc>

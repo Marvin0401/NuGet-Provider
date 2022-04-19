@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Net.Http.Rtc</name>
+  </assembly>
+  <members>
+    <member name="T:System.Net.Http.RtcRequestFactory">
+      <summary>Представляет класс, используемый для создания специального <see cref="T:System.Net.Http.HttpRequestMessage" /> для использования с инфраструктурой фоновых уведомлений связи в режиме реального времени (RTC).</summary>
+    </member>
+    <member name="M:System.Net.Http.RtcRequestFactory.Create(System.Net.Http.HttpMethod,System.Uri)">
+      <summary>Создает специальный <see cref="T:System.Net.Http.HttpRequestMessage" /> для использования инфраструктурой фоновых уведомлений связи в режиме реального времени (RTC).</summary>
+      <returns>Возвращает <see cref="T:System.Net.Http.HttpRequestMessage" />.Сообщение запроса HTTP для использования с инфраструктурой уведомлений фона RTC.</returns>
+      <param name="method">Метод HTTP.</param>
+      <param name="uri">Универсальный код ресурса (URI), по которому отправляется запрос.</param>
+    </member>
+  </members>
+</doc>
